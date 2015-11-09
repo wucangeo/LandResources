@@ -54,7 +54,7 @@ namespace LandResources
         private GalleryItemGroup galleryGroup_Documnet; //文档分组
         private GalleryItemGroup galleryGroup_Spatial;  //空间数据
         private GalleryItemGroup galleryGroup_Image;    //图片分组
-        //private GalleryItemGroup galleryGroup_MDB;      //MDB数据库
+        private GalleryItemGroup galleryGroup_MDB;      //MDB数据库
         private GalleryItemGroup galleryGroup_Else;     //其他数据类型分组
 
         //与图片tab相关
@@ -123,13 +123,13 @@ namespace LandResources
             try
             {
                 //DevExpress.XtraGrid.Localization.GridResLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraGridCHS();
-                //DevExpress.XtraEditors.Controls.Localizer.Active = new Dxper.LocalizationCHS.Win.XtraEditorsCHS();
+                DevExpress.XtraEditors.Controls.Localizer.Active = new Dxper.LocalizationCHS.Win.XtraEditorsCHS();
                 //DevExpress.XtraCharts.Localization.ChartResLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraChartsCHS();
-                //DevExpress.XtraBars.Localization.BarLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraBarsCHS();
-                //DevExpress.XtraLayout.Localization.LayoutLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraLayoutCHS();
-                //DevExpress.XtraPrinting.Localization.PreviewLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraPrintingCHS();
+                DevExpress.XtraBars.Localization.BarLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraBarsCHS();
+                DevExpress.XtraLayout.Localization.LayoutLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraLayoutCHS();
+                DevExpress.XtraPrinting.Localization.PreviewLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraPrintingCHS();
                 //DevExpress.XtraTreeList.Localization.TreeListResLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraTreeListCHS();
-                //DevExpress.Office.Localization.OfficeResLocalizer.Active = new Dxper.LocalizationCHS.Win.OfficeCHS();
+                DevExpress.Office.Localization.OfficeResLocalizer.Active = new Dxper.LocalizationCHS.Win.OfficeCHS();
                 //DevExpress.XtraSpreadsheet.Localization.XtraSpreadsheetLocalizer.Active = new Dxper.LocalizationCHS.Win.XtraSpreadsheetCHS();
             }
             catch
